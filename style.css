@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap');
+
+*{
+    font-family: 'Inter', sans-serif;
+    padding: 0;
+    background-color: #343541;
+    color: #FFFFFF;
+    text-align: center;
+    align-items: center;
+    font-weight: 400;
+    margin-bottom: 12px;
+    
+    
+}
+
+main{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+
+.textfield > p{
+    font-size: 15px;
+
+}
+
+.btn-login{
+    background-color: #0FA47F;
+    padding: 12px;
+    border-radius: 4px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    text-align: center;
+    margin: 9px;
+    cursor: pointer;
+
+
+}
+
+
+.btn-signup{
+    background-color: #0FA47F;
+    padding: 12px;
+    border-radius: 4px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    text-align: center;
+    cursor: pointer;
+
+
+
+}
