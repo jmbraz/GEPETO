@@ -43,6 +43,15 @@ main{
 
 }
 
+.btn-login a{
+
+    text-decoration: none;
+    background-color: transparent;
+
+
+
+}
+
 
 .btn-signup{
     background-color: #0FA47F;

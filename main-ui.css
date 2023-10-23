@@ -24,11 +24,10 @@ body{
     flex-direction: column;
     align-items: flex-start; /* Alinhamento à esquerda */
     padding: 20px; /* Adicionei espaçamento no container do logo */
-    
+    z-index: 1;
 }
 
 .menu .logo-container {
-
     text-align: left;
     margin: -11px;
     padding: 15px;
@@ -39,7 +38,7 @@ body{
     display: flex;
     align-items: center; /* Alinhamento vertical centralizado */
     cursor: pointer;
-    margin-bottom: 168%;
+    margin-bottom: 22px;
 
 }
 
@@ -48,14 +47,57 @@ body{
     margin-right: 15px; /* Espaçamento entre a imagem e o texto */
 }
 
+
 .menu .logo-text {
     color: white;
     font-size: 18px;
     display: block;
     font-size: 13.5px;
     font-weight: 500;
-    
 }
+
+.menu .chat-container {
+    text-align: left;
+    margin: -11px;
+    padding: 15px;
+    padding-right: 6px;
+
+    border-radius: 6px;
+    background-color: #343540;
+    display: flex;
+    align-items: center; /* Alinhamento vertical centralizado */
+    cursor: pointer;
+    margin-bottom: 120%;
+
+}
+
+.menu .chat-img {
+
+    margin-right: 15px; /* Espaçamento entre a imagem e o texto */
+}
+
+.menu .pen-img {
+
+
+    margin-left: 4px;
+
+
+}
+
+.menu .delete-img {
+
+
+}
+
+.menu .chat-text {
+    color: white;
+    font-size: 18px;
+    display: block;
+    font-size: 13.5px;
+    font-weight: 500;
+}
+
+
 
 .menu ul {
     position: sticky;
@@ -112,89 +154,97 @@ body{
   
   }
 
+  .conversation {
+    border-radius: 5px;
 
-
-  .content {
-    position: relative;
-    left: 8%;
-    top: 39px;
-    max-width: 800px;
-    margin: 0 auto;
     padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-    color: #ffffff;
-    margin-bottom: 40px; /* Adicione margem inferior para separá-lo do container */
-}
-
-
-.content h1 {
-    color: #ffffff;
-    font-weight: 400;
-    font-size: 32px;
-    margin-bottom: 69px;
+    margin-bottom: 30%;
+    margin-left: 17%;
 
 }
-
-.examples-container {
-    position: relative;
-    left: 5%;
-
-    
-
-
-    display: flex;
-
-    gap: 15px; /* Espaçamento desejado entre os elementos */
-}
-
-
-
-.content h2 {
-    color: #ffffff;
-    text-align: center;
-    font-size: 17px;
-    font-weight: 400;
-    margin-bottom: 21px;
-}
-
-.image-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    margin-bottom: 18px;
-}
-
-img {
-    max-width: 100%;
-}
-
-.content ul {
-    list-style-type: none;
-    padding: 0;
-    text-align: center;
-    font-size: 13px;
-}
-
-.example-block {
+.message {
+    margin-bottom: 10px;
     display: flex;
     align-items: center;
-    width: 218px;
-    height: auto;
-    color: #ffffff;
-    background-color: #444654;
-    border-radius: 5px;
-    padding: 12px;
-    margin-bottom: 14px;
-
-    text-align: center;
 }
 
+.message.user .avatar {
+    width: 30px;
+    height: 30px;
+    margin-left: 205px;
+    margin-right: 26px;
+}
+
+.message.chatgpt .avatar {
+    width: 30px;
+    height: 30px;
+    margin-left: 205px;
+    margin-right: 26px;
+    margin-top: -78px;
+}
+
+.message.user {
+    position: relative;
+    left: -56px;
+    margin: 0;
+    font-size: 15px;
+    line-height: 27px;
+
+
+    color: #fff;
+    padding: 10px;
+    padding-bottom: 25px;
+}
+
+.message.chatgpt {
+    position: absolute;
+    left: 14.3%;
+    background-color: #444654;
+    color: #fff;
+    padding: 10px;
+    height: 199px;
+
+
+
+
+    border: 1px solid #32343A;
+}
+
+.message.chatgpt p{
+    margin: 0;
+    font-size: 15px;
+    line-height: 27px;
+}
+
+.rating {
+    margin-top: 12px; /* Adicione um espaçamento superior conforme necessário */
+    margin-left: auto; /* Coloca a imagem no canto direito da caixa de mensagem */
+    display: flex; /* Permite alinhamento vertical do rating com o texto */
+    align-items: center; /* Alinha o rating verticalmente com o texto */
+    cursor: pointer;
+
+}
+
+.rating img {
+    width: 50px; /* Largura da imagem de rating */
+    height: auto; /* A altura se ajustará automaticamente à largura */
+
+    margin-right: 197px;
+    margin-left: 25px;
+    margin-top: -100px;
+}
+
+
+
+
+
+ 
 
 .container {
 
     text-align: center;
     color: #ffffff;
+    bottom: 0;
 }
 
 .input-container {
@@ -245,5 +295,28 @@ img {
 
 
 
+.btn-signup{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    color: #C5C5D1;
+    font-weight: 400;
+    font-size: 13px;
+    padding: 12px;
+    width: 184px;
+    height: 37px;
+    cursor: pointer;
+    border: 1px solid #444654;
 
+}
+
+.btn-signup img{
+
+    margin-left: -10px;
+    margin-right: 10px;
+}
 
