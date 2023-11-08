@@ -29,6 +29,8 @@ Você pode conferir o design da interface no [link do Figma](https://www.figma.c
 
 ## Preview
 ![Captura de Tela do Sistok](https://github.com/jmbraz/GEPETO/raw/main/Captura-GEPETO.png)
+![Captura de Tela do Sistok](https://github.com/jmbraz/GEPETO/raw/main/Captura-GEPETO(1).png)
+![Captura de Tela do Sistok](https://github.com/jmbraz/GEPETO/raw/main/Captura-GEPETO(2).png)
 
 ## Deploy
 
